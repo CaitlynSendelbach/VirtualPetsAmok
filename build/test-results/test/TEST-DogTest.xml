@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DogTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-30T19:23:28" hostname="LAPTOP-A1IN7KJM" time="0.063">
+  <properties/>
+  <testcase name="shouldDecreaseBoredomBy10" classname="DogTest" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
