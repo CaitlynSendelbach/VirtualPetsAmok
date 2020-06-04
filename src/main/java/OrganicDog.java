@@ -31,7 +31,7 @@ public class OrganicDog extends OrganicPets implements Walking, GetAllAttributes
         String thirStr = String.valueOf(getThirst());
         String boreStr = String.valueOf(getBoredom());
         String dirStr = String.valueOf(getDirtiness());
-        return hungStr + " |" + happStr + " |" + thirStr + " |" + boreStr + " |" + healthStr + " |" + dirStr;
+        return "\t" + hungStr + "\t | \t" + happStr + "\t | \t" + thirStr + "\t | \t" + boreStr + "\t | \t" + healthStr + "\t | \t" + dirStr;
     }
 
     @Override

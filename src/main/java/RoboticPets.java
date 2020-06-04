@@ -26,6 +26,6 @@ public class RoboticPets extends VirtualPet implements IncreaseAttributes, GetAl
         String happStr = String.valueOf(happiness);
         String healthStr = String.valueOf(health);
         String oilStr = String.valueOf(oilLevel);
-        return happStr + " |" + healthStr + " |" + oilStr;
+        return  happStr + " |" + healthStr + " |" + oilStr;
     }
 }

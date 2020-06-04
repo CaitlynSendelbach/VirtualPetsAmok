@@ -15,7 +15,7 @@ public class VirtualPetShelter {
     public String showOrganicPets() {
         for (VirtualPet petInfo : getAllPets()) {
             if (petInfo instanceof OrganicCat) {
-                System.out.println(petInfo.findName() + " |" + ((OrganicCat) petInfo).getAllAttributes() + " |" + litterBoxWaste);
+                System.out.println(petInfo.findName() + " |" + ((OrganicCat) petInfo).getAllAttributes() + "\t | \t" + litterBoxWaste);
             }
             if (petInfo instanceof OrganicDog) {
                 System.out.println(petInfo.findName() + " |" + ((OrganicDog) petInfo).getAllAttributes());

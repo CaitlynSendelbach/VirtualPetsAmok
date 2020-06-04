@@ -43,7 +43,7 @@ public class OrganicPets extends VirtualPet implements GetAllAttributes {
         String thirStr = String.valueOf(getThirst());
         String boreStr = String.valueOf(getBoredom());
         String healthStr = String.valueOf(getHealth());
-        return hungStr + " |" + happStr + " |" + thirStr + " |" + boreStr + " |" + healthStr;
+        return "\t" + hungStr + "\t | \t" + happStr + "\t | \t" + thirStr + "\t | \t" + boreStr + "\t | \t" + healthStr;
     }
 
 }

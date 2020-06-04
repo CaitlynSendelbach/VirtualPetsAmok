@@ -21,12 +21,12 @@ public class VirtualPetShelterApp {
             System.out.println("This is the status of your pets:");
             System.out.println();
             System.out.println("Name: " + "Hunger: " + "Happiness: " + "Thirst: " + "Boredom: " + "Health: " + "Cleanliness:");
-            System.out.println("------|---|---|---|---|---|");
+            System.out.println("\t  |------|-------|-------|-------|-------|-------|");
             System.out.println(shelterPets.showOrganicPets());
             System.out.println();
             System.out.println("Robotic Pets:");
             System.out.println("Name: " + "Happiness: " + "Health: " + "Oil Level: ");
-            System.out.println("------|---|---|");
+            System.out.println("\t  |------|-------|-------|");
             System.out.println(shelterPets.showRoboticPets());
             System.out.println();
             System.out.println("What would you like to do next?");
@@ -46,6 +46,8 @@ public class VirtualPetShelterApp {
             System.out.println("14. Quit");
             userAction = input.nextInt();
             input.nextLine();
+
+
             if (userAction == 1) {
                 System.out.println("You have chosen to feed the pets");
                 shelterPets.feedAllPets();
